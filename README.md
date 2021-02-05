@@ -3,8 +3,8 @@ Made to resolve a recent issue with HTML5 Gamemaker games losing focus, resultin
 
 Added the extension, via Tools > Import Local Package, then use the WindowFocus function. For example...
 
-// Step event
 ```
+// Step event
 if (mouse_check_button(mb_any))	
   {
   WindowFocus();	
